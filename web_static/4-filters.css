@@ -1,0 +1,49 @@
+.container{
+	max-width: 1000px;
+	margin: 30px auto;
+	height: 70px;
+	width: 100%;
+	border:1px #DDDDDD with radius 4px;
+	
+}
+button{
+background-color: #FF5A5F;
+color :#FFFFFF;
+height: 48px;
+width: 20%; 
+border:0;
+border-radius: 4px;
+	 position: absolute;
+        top: 7;
+
+        right: 0px;
+        z-index: 2;
+       
+       margin: 0 5px;
+        cursor: pointer;
+ 
+      
+        transform: translateX(2px);
+/*center vertically and at 30px of the right border
+change opacity to 90% when the mouse is on the button*/
+	
+}
+.buttonIn {
+	    padding:10px 0;
+        width: 700px;
+	    height: 45px;
+        position: relative;
+	    border: 1px solid black;
+	    border-radius: 4px;
+    }
+input{
+	width:70%;
+	height:50px;
+	border:none;
+        margin: 0px 5px;
+        padding: 0px;
+        outline: none;
+        border-radius: none;
+	    float:left;
+    
+}
