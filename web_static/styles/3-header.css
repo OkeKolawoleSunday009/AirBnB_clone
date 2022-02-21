@@ -5,3 +5,9 @@ header{
          width: 100%;                                        
          background:white;                                    
         }  
+.logo {
+    background: url("../images/logo.png") no-repeat center;
+    padding-left: 20px;
+    height: 70px;
+    width: 142px;
+}
